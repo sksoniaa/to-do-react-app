@@ -2,7 +2,7 @@ import React, {useState} from "react";
 
 export default function ToDoList() {
 
-  const [tasks, setTasks] = useState(['Call grandma', 'Buy a present for Sharon', 'Put some oil in the car'])
+  const [tasks, setTasks] = useState([])
 
   const [newTask, setNewTask] = useState("")
 
