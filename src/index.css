@@ -1,0 +1,83 @@
+body{
+  background-color: rgb(48, 70, 102);
+  color: white;
+  font-family: "Indie Flower";
+}
+
+.to-do-list{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(28, 43, 66);
+  width: 500px;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+ol{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid rgb(48, 70, 102);
+  border-bottom: 2px solid rgb(48, 70, 102);
+
+}
+li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 10px;
+}
+
+
+.add-button{
+  background-color: rgb(197, 220, 255);
+}
+
+.delete-all-btn{
+  background-color: rgb(255, 101, 101);
+  color: white;
+}
+
+
+.delete-btn{
+  background-color: rgb(255, 185, 185);
+}
+
+.move-up, .move-down{
+  background: none;
+  border: 1px solid rgb(48, 70, 102);
+}
+
+.move-up:hover, .move-down:hover{
+  box-shadow: 0 0 1px white;
+
+}
+
+input{
+  font-family: "Indie Flower";
+  font-size: 15px;
+  background-color: rgb(197, 220, 255);
+  border: 1px solid rgb(48, 70, 102);
+  padding: 5px 10px;
+  border-radius: 20px;
+  color: rgb(28, 43, 66);
+}
+
+button{
+  font-family: "Indie Flower";
+  font-size: 15px;
+  padding: 4px 15px;
+  border-radius: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  margin: 2px;
+  color: rgb(28, 43, 66);
+}
+
+button:hover{
+  box-shadow: 0 0 5px white;
+
+}
